@@ -36,6 +36,14 @@ body {
 ol, ul {
 	list-style: none;
 }
+/*
+.tech {
+	display: inline-block;
+	position: relative;
+	font-size: 1.5rem;
+	padding-left: 20px;
+	bottom: 25px;
+} */
 
 blockquote, q {
 	quotes: none;
@@ -70,6 +78,14 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+.logo {
+	font-size: 5rem;
+}
+
+.section-head {
+	text-align: center;
 }
 
 /* Basic */
@@ -2374,11 +2390,14 @@ input, select, textarea {
 /* Feature Icons */
 
 	ul.feature-icons {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
 		list-style: none;
 		padding-left: 0;
 	}
 
-		ul.feature-icons li {
+		/* ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
 			margin: 0 0 1.6875em 0;
@@ -2399,9 +2418,9 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
-			}
+			} */
 
-			ul.feature-icons li:before {
+			/* ul.feature-icons li:before {
 				background: #4acaa8;
 				border-radius: 100%;
 				color: #ffffff;
@@ -2413,6 +2432,15 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 2.5em;
+			} */
+			.icon-right {
+				margin-left: 30%;
+				padding-bottom: 30px;
+			}
+
+			.icon-left {
+				margin-left: 10%;
+				padding-bottom: 30px;
 			}
 
 /* Icons */
